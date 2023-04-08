@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .charactor a {
+            text-decoration: none;
+            background-color: brown;
+            color: white;
+            padding-top: 5px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            padding-right: 15px;
+            border-radius: 5px;
+        }
+        .charactor a:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <form class="navbar-form navbar-right" action="/action_page.php">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                        <div class="input-group-btn">
+                            <a href="./Signup" class="btn btn-default">Đăng kí</a>
+                            <a href="./Login" class="btn btn-default">Đăng nhập</a>
+                        </div>
+                    </div>
+                </form>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="./add"><i class="fa fa-shopping-cart" style="font-size:18px;color:red"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div style="text-align: center; display: grid; grid-template-columns: 1fr 1fr 1fr;">
+    </div>
+</body>
+
+</html>
